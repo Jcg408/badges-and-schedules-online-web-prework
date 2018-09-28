@@ -13,7 +13,8 @@ def batch_badge_creator (attendees)
  def assign_rooms (attendees)
    room = []
    i = 0;
-   attendees.each do |rooms|
+   attendees.each do |assign|
+     room.push("Hello, #{attendees} ")
      
  end
 
