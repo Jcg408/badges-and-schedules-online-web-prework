@@ -20,7 +20,7 @@ def batch_badge_creator (attendees)
    return room
  end
  
- def printer (names)
+ def printer (attendees)
    batch_badge_creator.each do |view|
      puts view
    end
