@@ -4,10 +4,10 @@ end
 
 def batch_badge_creator (attendees)
   
-  attendees.each do |list|
+  attendees.each do |badges|
     
-    puts "Hello, my name is #{list}"
-    return list
+    
+ 
   end
  end
 
