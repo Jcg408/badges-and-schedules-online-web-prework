@@ -3,7 +3,7 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (attendees)
-  list = []
-  list.push(attendees)
+  attendees.each do
+    
  end
 
