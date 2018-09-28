@@ -20,7 +20,7 @@ def batch_badge_creator (attendees)
    return room
  end
  
- def printer 
+ def printer (batches)
    puts batch_badge_creator
    puts assign_rooms
  end
