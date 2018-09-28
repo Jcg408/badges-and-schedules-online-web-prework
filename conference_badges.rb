@@ -23,8 +23,10 @@ def batch_badge_creator (attendees)
  def printer (names)
    batch_badge_creator.each do |view|
      puts view
+   end
    assign_rooms.each do |view|
      puts view
+   end
  end
  
 
